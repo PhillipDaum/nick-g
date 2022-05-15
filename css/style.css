@@ -1,61 +1,20 @@
  
-  /* We can choose fonts here*/
-
+/* We can choose fonts here*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Lobster&family=Open+Sans:wght@300&display=swap');
-
 h1 {
   font-family: 'Lobster', cursive;
 }
-
 h2 {
   font-family: 'Audiowide', cursive;
 }
-
 p {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+/* Link ur picture for the homepage here */
 .hero1 {
   background-image: url(../img/1.jpg);
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero2 {
-  background-image: url(../img/2.jpg);
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero3 {
-  background-image: url(../img/3.jpg);
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero4 {
-  background-image: url(../img/4.jpg);
 
   /* Full height */
   height: 100%;
