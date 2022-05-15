@@ -1,27 +1,23 @@
 # bootstrap-boilerplate
 
 ## Description
-This is a template for building other websites for my Bitwise class. I will be making some cool websites with this
+This is a template for Nick's site
 
-## Prerequisites
-- I'm not sure what all of the depencancies are yet
-- I will be filling out more about this later
+## Docs
+Mostly built in Bootstrap. Look at this
+https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
 ## Contributing
 - This part is coming soon! I think we will be learning some more about this in class today.
 > My filing structures are okay, but I can work on that
 
 ## License
-Also, coming soon!
+you so this
 
 ## Contact
 philgdaum@gmail.com
+change this to you
 
 ## Other
-- The teachers are pretty cool. I think we will be using this repository as a template to do other websites.
-- I am excited to start working on my final project. 
-- This part will be filled out more
-  - As I learn more best practices  
-  - Read more documents
-  **- And go to class more**
-bitwise class
+also make a special repo that is called the exact same as your github name
+then you can use markup to make ur little pinned up readme for you
