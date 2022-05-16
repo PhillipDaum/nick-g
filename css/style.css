@@ -11,6 +11,11 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* THis will be the boxes opacity for the one box page, could maybe also do styleing for js function*/
+.box1 {
+  opacity: .7;
+  z-index: -1;
+}
 
 /* Link ur picture for the homepage here */
 .hero1 {
