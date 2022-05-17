@@ -12,14 +12,23 @@ p {
 }
 
 /* THis will be the boxes opacity for the one box page, could maybe also do styleing for js function*/
+/* the lowest z index is -1, we need the bottom layer to be the pictures
+we will go ahead and just make the source photos opaque adn skilp a step of code
+then on top of that will float the element boxes that later will link with java or python
+i'm gonna try and make the background of those a different z idex as well, thise can be 0
+then the picture and accordiaon elements etc wil be 1
+*/
+
 .box1 {
   opacity: .7;
-  z-index: -1;
+  z-index: 0;
 }
 
 /* Link ur picture for the homepage here */
-.hero1 {
-  background-image: url(../img/1.jpg);
+/* i think it would be cool to make a little pattern that could repeat itself */
+.bgp {
+  background-image: url(../img/3.png);
+  z-index: -1;
 
   /* Full height */
   height: 100%;

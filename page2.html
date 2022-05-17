@@ -14,46 +14,59 @@
 <!-- --------------------------- --------------- ----------- ------------ ------------ -->
 
     <!-- function starts on page load -->
-    <body class="bg-light p-3 mt-5" onload="cheifGangster()">
+  <body onload="cheifGangster()">
 
-    <!-- nav bar -->
-    <nav class="navbar navbar-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#tile2">Work</a>
-          </ul>
+    <!-- nav bar may be a couple extra class descriptions in first div -->
+    <div class="row bg-light sticky-top">
+      <nav class="navbar navbar-light">
+        <div class="container-fluid">
+          <!-- put what you want on the left of the navbar here -->
+          <a class="navbar-brand" href="#">Nick is a cool guy.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <!-- anchor for main page -->
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <!-- anchor for second page -->
+                <a class="nav-link active" href="page2.html">Work</a>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     
-    <!-- Main Bit -->
-    <div class="container-fluid bg-secondary p-3 align-items-center d-flex">
-      <!-- Link this to img in array in Js -->
-      <div class="col-xs p-5">
-          <img class="img-fluid rounded-1" 
-          src="img/1.png">
-      </div>
-          <div class="col-sm">
+    <!-- apply the background to this -->
+    <div class="row bgp p-5">
+
+      <!-- Element Container -->
+      <div class="container-fluid bg-secondary p-3">
+        <div class="row align-items-center d-flex">
+          <!-- First column with picture in it, the numbers are grid breakpoints out of 12 -->
+          <div class="col-sm-12 col-md-4 justify-content-center d-flex mb-4 p-2">
+              <img class="img-fluid rounded-1" 
+              src="img/1.png">
+          </div>
+          <!-- Second column with accordion in it -->
+          <div class="col-sm-12 col-md-8">
               <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
+                      <!-- open accodion tab title -->
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                           This will be the name of whatever thing it is
                       </button>
                       </h2>
                       <div id="collapseOne" class="show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                          <div class="container-fluid">
+                        <div class="accordion-body">
+                            <!-- put main text content in this div -->
+                            <div class="container-fluid">
                               <p>Write the item's description here</p>
+                              <!-- we can figure out how to populate these list items from an array -->
                               <ul class="list-group list-group-flush">
                                   <li class="list-group-item">
                                       <a class="btn text-primary" target="_blank" href="https://www.phillipdaum.com/">Change this to your link</a>
@@ -62,28 +75,91 @@
                                       <a class="btn text-primary" target="_blank" href="https://www.phillipdaum.com/">Change this to your link</a>
                                   </li>
                               </ul>
-                          </div>
-                      </div>
+                            </div>
+                        </div>
                       </div>
                   </div>
                   <div class="accordion-item">
                       <h2 class="accordion-header" id="headingTwo">
+                      <!-- put in here the title of the content area that is default closed -->
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                           additional information
                       </button>
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                          This has shit from the array
-                      </div>
+                        <!-- put in here whatever content is default closed-->
+                        <div class="accordion-body">
+                            This has shit from the array
+                        </div>
                       </div>
                   </div>
               </div>
           </div>
       </div>
+      </div>
+
+      <!-- Element Container -->
+      <h1 class ="p-3"></h1>
+
+      <!-- Element Container -->
+      <div class="container-fluid bg-secondary p-3">
+        <div class="row align-items-center d-flex">
+          <!-- First column with picture in it, the numbers are grid breakpoints out of 12 -->
+          <div class="col-sm-12 col-md-4 justify-content-center d-flex mb-4 p-2">
+              <img class="img-fluid rounded-1" 
+              src="img/1.png">
+          </div>
+          <!-- Second column with accordion in it -->
+          <div class="col-sm-12 col-md-8">
+              <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                      <!-- open accodion tab title -->
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          This will be the name of whatever thing it is
+                      </button>
+                      </h2>
+                      <div id="collapseOne" class="show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <!-- put main text content in this div -->
+                            <div class="container-fluid">
+                              <p>Write the item's description here</p>
+                              <!-- we can figure out how to populate these list items from an array -->
+                              <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">
+                                      <a class="btn text-primary" target="_blank" href="https://www.phillipdaum.com/">Change this to your link</a>
+                                  </li>
+                                  <li class="list-group-item">
+                                      <a class="btn text-primary" target="_blank" href="https://www.phillipdaum.com/">Change this to your link</a>
+                                  </li>
+                              </ul>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                      <!-- put in here the title of the content area that is default closed -->
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          additional information
+                      </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <!-- put in here whatever content is default closed-->
+                        <div class="accordion-body">
+                            This has shit from the array
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
   
+    </div>
 
 
+  
     <!-- FOOTER -->
     <div class="container-fluid bg-warning vh-50 align-items-center d-flex opacity-75 justify-content-center">
       <div class="row">

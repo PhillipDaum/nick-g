@@ -5,14 +5,14 @@ This is a template for Nick's site
 
 ## Docs
 Mostly built in Bootstrap. Look at this
+this is the wrong link, but its almost right. its version 5.1 i think .3 change it in the top right of the docs area
 https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
-## Contributing
-- This part is coming soon! I think we will be learning some more about this in class today.
-> My filing structures are okay, but I can work on that
+## making the site
+- i commented out stuff i do and also tried to comment out the spots in the code where you add the titles and content
 
 ## License
-you so this
+you do this
 
 ## Contact
 philgdaum@gmail.com
