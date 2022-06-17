@@ -16,7 +16,8 @@ TODO - Nick: you do this
 What kind of license do I need? I think that my GitHub repository has a Creative Commons or an MIT License
 
 ## Contact
-ngantzler@gmail.com
+dummy_email@gmail.com
+#ngantzler@gmail.com
 
 
 ## Other
