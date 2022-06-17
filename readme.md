@@ -17,7 +17,7 @@ What kind of license do I need? I think that my GitHub repository has a Creative
 
 ## Contact
 dummy_email@gmail.com
-#ngantzler@gmail.com
+
 
 
 ## Other
