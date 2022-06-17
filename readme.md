@@ -5,19 +5,19 @@ This is a template for Nick's site
 
 ## Docs
 Mostly built in Bootstrap. Look at this
-this is the wrong link, but its almost right. its version 5.1 i think .3 change it in the top right of the docs area
+this is the wrong link, but its almost right. its version 5.1 I think .3 change it in the top right of the docs area
 https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
 ## making the site
-- i commented out stuff i do and also tried to comment out the spots in the code where you add the titles and content
+- I commented out stuff I do and also tried to comment out the spots in the code where you add the titles and content
 
 ## License
-you do this
+TODO - Nick: you do this
+What kind of license do I need? I think that my GitHub repository has a Creative Commons or an MIT License
 
 ## Contact
-philgdaum@gmail.com
-change this to you
+ngantzler@gmail.com
+
 
 ## Other
-also make a special repo that is called the exact same as your github name
-then you can use markup to make ur little pinned up readme for you
+https://github.com/ngantzler/ngantzler.git
