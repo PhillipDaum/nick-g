@@ -12,8 +12,9 @@ https://getbootstrap.com/docs/5.2/getting-started/introduction/
 - I commented out stuff I do and also tried to comment out the spots in the code where you add the titles and content
 
 ## License
-TODO - Nick: you do this
-What kind of license do I need? I think that my GitHub repository has a Creative Commons or an MIT License
+TODO: 
+1. What kind of license do I need? 
+    - I think that my GitHub repository has a Creative Commons or an MIT License
 
 ## Contact
 dummy_email@gmail.com
@@ -21,4 +22,4 @@ dummy_email@gmail.com
 
 
 ## Other
-https://github.com/ngantzler/ngantzler.git
+[my GitHub](https://github.com/ngantzler/ngantzler.git)
